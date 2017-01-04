@@ -23,7 +23,7 @@
         <longProp name="ThreadGroup.end_time">1483487529000</longProp>
         <boolProp name="ThreadGroup.scheduler">false</boolProp>
         <stringProp name="ThreadGroup.duration"></stringProp>
-	<stringProp name="ThreadGroup.delay"></stringProp>
+        <stringProp name="ThreadGroup.delay"></stringProp>
       </ThreadGroup>
       <hashTree>
         <JDBCDataSource guiclass="TestBeanGUI" testclass="JDBCDataSource" testname="JDBC Connection Configuration" enabled="true">
@@ -36,9 +36,9 @@
           <boolProp name="keepAlive">true</boolProp>
           <stringProp name="connectionAge">5000</stringProp>
           <stringProp name="checkQuery">Select 1 from dual</stringProp>
-          <stringProp name="dbUrl">jdbc:oracle:thin:@myinstances.us-east-1.rds.amazonaws.com:1521:ORCL</stringProp>
+          <stringProp name="dbUrl">jdbc:oracle:thin:@myinstance.rds.amazonaws.com:1521:ORCL</stringProp>
           <stringProp name="driver">oracle.jdbc.OracleDriver</stringProp>
-          <stringProp name="username">mydatabaseuser</stringProp>
+          <stringProp name="username">myuser</stringProp>
           <stringProp name="password">mypassword</stringProp>
         </JDBCDataSource>
         <hashTree/>
